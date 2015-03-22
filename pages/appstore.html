@@ -1,0 +1,9 @@
+<div class="twelve columns">
+	<a href="#/" class="button"> < Go back</a>
+</div>
+
+<div class="twelve columns app">
+	<ul>
+		<li ng-repeat="app in appstore track by $index" set-to-home><a href="#/appstore" ng-click="setToHome(app.link, app.text)">{{app.text}}</a></li>
+	</ul>
+</div>

@@ -1,0 +1,31 @@
+body{
+	background-color: #e9eaed;
+	margin-top: 50px;
+}
+
+.app ul{
+	list-style: none;
+}
+.app li{
+	display: inline;
+	background-color: #fff;
+	width: 150px;
+	height: 150px;
+	margin: 5px;
+	float: left;
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
+}
+
+.app a{
+	text-decoration: none;	
+	display: block;
+	width: 150px;
+	line-height: 150px;
+	text-align: center;
+}
+
+.app a:hover{
+	background-color: orange;
+	color:#fff;
+}
